@@ -1,2 +1,6 @@
-fiesta-de -tickers.png
 /images
+*.xd
+*.svg
+*.png
+/capturas
+.jpg
