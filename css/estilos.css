@@ -1,3 +1,5 @@
+/* Enlace para el diseño de XD https://xd.adobe.com/view/7800ef84-0b71-4e28-7d02-b86c30343823-0e31/screen/5a257c15-bd57-4c4a-a658-3224c01f6f23/Home */
+
 html,
 body {
   padding: 0px;
@@ -5,6 +7,8 @@ body {
   font-size: 12px;
   font-family: "Open Sans";
 }
+
+/* Aquí empieza el Header */
 
 header {
   height: 183px;
@@ -47,4 +51,75 @@ header nav ul li a {
   color: #081838;
   text-decoration: none;
   margin-left: 40px;
+}
+
+/* Aquí empieza el hero */
+
+.hero {
+  height: 800px;
+  background-image: url("https://images.pexels.com/photos/2118863/pexels-photo-2118863.jpeg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+}
+
+.product-show {
+  padding-top: 460px;
+  display: inherit;
+  justify-content: inherit;
+}
+
+.product-hero {
+  color: white;
+  width: 280px;
+  height: 295px;
+  background-color: #ecb13b;
+  text-align: center;
+  margin: 0px 24px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+.product-hero h2 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0px;
+  margin-top: 28px;
+}
+
+.product-hero p {
+  font-weight: regular;
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.product-hero.comprar {
+  background-color: #2c63cf;
+  padding: 10px 60px;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefit {
+  text-align: center;
+  padding: 50px;
+}
+
+.benefit-icon i {
+  font-size: 250px;
+}
+
+.benefit-icon {
+  padding: 30px;
+  background-color: #f1f2f3;
 }
