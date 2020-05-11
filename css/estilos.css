@@ -119,7 +119,17 @@ header nav ul li a {
   font-size: 250px;
 }
 
+.fas.fa-bed {
+  font-size: 200px;
+}
+
 .benefit-icon {
-  padding: 30px;
+  width: 400px;
+  height: 400px;
   background-color: #f1f2f3;
+  color: #d5dbe7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
