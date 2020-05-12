@@ -9,6 +9,8 @@
   --main-blue: #081838;
   --link-blue: #2c63cf;
   --mid-blue: #103786;
+  /* shadows */
+  --box-shadow-main: 0px 3px 6px #00000029;
 }
 
 /* Aqui empiezan los estios */
@@ -89,7 +91,7 @@ header nav ul li a {
   background-color: var(--soft-yelow);
   text-align: center;
   margin: 0px 24px;
-  box-shadow: 0px 3px 6px #00000029;
+  box-shadow: var(--box-shadow-main);
 }
 
 .product-hero h2 {
@@ -115,6 +117,8 @@ header nav ul li a {
   font-weight: bold;
   border-radius: 50px;
 }
+
+/* aqui empiezan los beneficios */
 
 .benefits {
   display: flex;
@@ -144,4 +148,17 @@ header nav ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.benefit-tittle {
+  color: var(--link-blue);
+  font-weight: bold;
+  font-size: 60px;
+  margin: 68px 0px 55px 0px;
+}
+
+.benefit-description {
+  color: var(--mid-blue);
+  font-size: 60px;
+  margin-bottom: 82px;
 }
