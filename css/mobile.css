@@ -1,4 +1,28 @@
 @media (max-width: 600px) {
+  /* aqui va el header */
+  header {
+    padding: inherit 10%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  header nav ul li a {
+    margin: 0px;
+  }
+  header nav ul li {
+    margin: 0px 10px;
+  }
+  header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  header nav {
+    height: 50%;
+  }
+
   /* Aqui va el Hero responsive */
   .hero {
     display: inherit;
@@ -35,9 +59,18 @@
   .benefits {
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
   }
   .benefit {
     padding: 0px;
     margin: 5px 10px;
+  }
+  /* aqui estan los comentarios */
+  .person {
+    text-align: center;
+    margin: 20px 10px;
+  }
+  .person-name {
+    margin: 10px 0px;
   }
 }
