@@ -1,0 +1,32 @@
+@media (max-width: 600px) {
+  .hero {
+    display: inherit;
+    justify-content: center;
+    height: auto;
+  }
+
+  .product-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20%;
+  }
+
+  .product-hero {
+    width: 60%;
+    height: 295;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .product-hero a {
+    width: 40%;
+  }
+}
