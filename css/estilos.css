@@ -168,3 +168,39 @@ header nav ul li a {
 }
 
 /* aqui terminan los beneficios y empiezan los testimonios */
+
+.people {
+  background-color: var(--main-yelow);
+  padding: 130px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.person {
+  margin: 0px 20px;
+  text-align: center;
+}
+
+.person-image {
+  height: 280px;
+  weight: 280px;
+  box-shadow: var(--box-shadow-main);
+  border-radius: 50%;
+}
+
+.person-name {
+  font-size: 50px;
+  letter-spacing: 0px;
+  color: var(--mid-blue);
+  font-weight: normal;
+}
+
+.person-comment {
+  font-size: 30px;
+  font-style: italic;
+  color: white;
+}
+
+/* aquí va el footer */
