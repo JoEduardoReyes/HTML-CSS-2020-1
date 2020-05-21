@@ -128,11 +128,12 @@ header nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .benefit {
   text-align: center;
-  padding: 30px;
+  margin: 30px;
 }
 
 .benefit-icon i {

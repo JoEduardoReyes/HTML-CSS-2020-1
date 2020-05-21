@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+  /* Aqui va el Hero responsive */
   .hero {
     display: inherit;
     justify-content: center;
@@ -28,5 +29,15 @@
 
   .product-hero a {
     width: 40%;
+  }
+  /* Aqui empiezan los benefits */
+
+  .benefits {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefit {
+    padding: 0px;
+    margin: 5px 10px;
   }
 }
