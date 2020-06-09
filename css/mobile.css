@@ -73,4 +73,20 @@
   .person-name {
     margin: 10px 0px;
   }
+
+  /* aqui va el footer */
+
+  footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .footer-tittle {
+    margin: 10px 0px;
+  }
+  .footer-links {
+    margin: 0;
+    padding-bottom: 20px;
+  }
 }
