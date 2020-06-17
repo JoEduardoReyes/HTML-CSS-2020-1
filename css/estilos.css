@@ -366,4 +366,29 @@ header {
 .pago_form {
   width: 50%;
   margin-left: 5%;
+  padding: 50px 5%;
+  box-sizing: border-box;
+}
+
+.formulario_de_pago {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+}
+
+.formulario_de_pago label {
+  font-size: 40px;
+}
+
+.formulario_de_pago input {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border: 0px;
+  padding: 0px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
