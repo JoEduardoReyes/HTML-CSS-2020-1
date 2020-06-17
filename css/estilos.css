@@ -313,6 +313,13 @@ header {
 
 /* diseño del formulario de compra  */
 
+.pago_cat_picture {
+  background-image: url(https://images.pexels.com/photos/320014/pexels-photo-320014.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .pago_container {
   display: flex;
   height: 700px;
@@ -327,6 +334,7 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 10px 10px 10px #00000029;
 }
 
 .pago_information {
@@ -353,10 +361,6 @@ header {
   background-color: var(--mid-blue);
   padding: 20px 20px;
   border-radius: 30px;
-}
-
-.pago_precio:hover {
-  background-color: var(--link-blue-hover);
 }
 
 .pago_entrega {
