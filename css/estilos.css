@@ -310,3 +310,60 @@ header {
   background-position: center;
   left: 55.55%;
 }
+
+/* diseño del formulario de compra  */
+
+.pago_container {
+  display: flex;
+  height: 700px;
+  color: white;
+}
+
+.pago_information_square {
+  height: 80%;
+  margin: auto 0px;
+  background-color: var(--soft-yelow);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pago_information {
+  background-color: var(--main-yelow);
+  display: flex;
+}
+.pago_carrito_info {
+  width: 30%;
+  margin-left: 10%;
+  text-align: center;
+  padding: 50px 5%;
+  box-sizing: border-box;
+}
+
+.pago_plan {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.pago_precio {
+  width: 90%;
+  margin: 0px auto;
+  font-size: 26px;
+  background-color: var(--mid-blue);
+  padding: 20px 20px;
+  border-radius: 30px;
+}
+
+.pago_precio:hover {
+  background-color: var(--link-blue-hover);
+}
+
+.pago_entrega {
+  font-size: 20px;
+}
+
+.pago_form {
+  width: 50%;
+  margin-left: 5%;
+}
