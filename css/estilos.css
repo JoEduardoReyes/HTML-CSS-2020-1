@@ -387,7 +387,8 @@ header {
   font-size: 40px;
 }
 
-.pago_data {
+.pago_data,
+.pago_enviar {
   height: 40px;
   width: 100%;
   font-size: 20px;
@@ -398,13 +399,6 @@ header {
 }
 
 .pago_enviar {
-  height: 40px;
-  width: 100%;
-  font-size: 20px;
-  border: 0px;
-  padding: 0px 15px;
-  border-radius: 10px;
-  box-sizing: border-box;
   color: white;
   background-color: var(--link-blue);
 }
