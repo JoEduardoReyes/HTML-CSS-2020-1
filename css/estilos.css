@@ -186,7 +186,7 @@ header nav ul li a {
 
 .person-image {
   height: 280px;
-  weight: 280px;
+  width: 280px;
   box-shadow: var(--box-shadow-main);
   border-radius: 50%;
 }
@@ -387,7 +387,7 @@ header {
   font-size: 40px;
 }
 
-.formulario_de_pago input {
+.pago_data {
   height: 40px;
   width: 100%;
   font-size: 20px;
@@ -395,4 +395,21 @@ header {
   padding: 0px 15px;
   border-radius: 10px;
   box-sizing: border-box;
+}
+
+.pago_enviar {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border: 0px;
+  padding: 0px 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  background-color: var(--link-blue);
+}
+
+.pago_enviar:hover {
+  cursor: pointer;
+  background-color: var(--link-blue-hover);
 }
