@@ -433,7 +433,7 @@ header {
   width: 80%;
   background-color: #e9ffe0;
   color: #528c39;
-  padding: 10% 5% 5% 5%;
+  padding: 10% 8%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -448,4 +448,50 @@ header {
 
 .exito-correo {
   font-size: 40px;
+}
+
+.volver-link {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #528c39;
+}
+
+.fracaso {
+  display: flex;
+  height: 100vh;
+}
+
+.fracaso-foto-gato {
+  background-image: url(https://images.pexels.com/photos/2194261/pexels-photo-2194261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: 30% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parrafo-fracaso {
+  height: 80%;
+  width: 80%;
+  background-color: #ffd1d1;
+  color: #da2d2d;
+  padding: 10% 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.fracaso-grande {
+  font-size: 60px;
+}
+
+.fracaso-correo {
+  font-size: 40px;
+}
+
+.volver-link-fracaso {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #da2d2d;
 }
